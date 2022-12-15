@@ -1,12 +1,59 @@
+/*Added link to import new interesting font for this project*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+/*Style H1*/
 h1{
     display: grid;
     justify-content: center;
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 35px;
+    color:chocolate;
 }
+/*Style H2*/
 h2 {
     display: grid;
     justify-content: center;
 }
+/*Style images*/
 #image1{
     width: 750px;
     height: 450px;
+}
+#image2{
+    width: 750px;
+    height: 450px;
+}
+/*Style nav bar*/
+.navbar {
+    font-family: 'Secular One', sans-serif;
+}
+/*Change the font of p element to make it more readable */
+p {
+    font-family: 'PT Serif', serif;
+}
+/*style the carousel items*/
+.carousel-item{
+    width: 550px;
+    height: 300px ;
+}
+/*Change color of navigation bar*/
+.topnav a{
+    color:chocolate;
+}
+/*Style H3*/
+h3 {
+    display: grid;
+    justify-content: center;
+    font-family: 'Secular One', sans-serif;
+
+}
+
+#image3{
+    width: 550px;
+}
+
+footer {
+    text-align: center;
 }
